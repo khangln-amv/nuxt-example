@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "kikan-frontend",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "nuxt": "^3.14.159",
+    "primevue": "^4.2.1",
+    "tailwindcss-primeui": "^0.3.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.2.1",
+    "postcss-import": "^16.1.0"
   }
 }
